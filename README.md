@@ -1,62 +1,62 @@
-Discord Token Login Script / سكربت تسجيل الدخول عبر توكن الديسكورد
-🌍 Language / اللغة
-English
+🎮 Discord Login Page with Telegram Logging
+A custom-designed Discord login page clone. When a user attempts to log in, the system captures the login credentials, the user's IP address, and their approximate geographic location, then forwards this data instantly to a specific Telegram Bot.
 
-العربية
+⚠️ Disclaimer: This project is created strictly for educational purposes, security research, and authorized penetration testing. Do not use it for malicious activities.
 
-English
-📝 Project Description
-This project is a simple web-based Discord Login Page that allows users to log in using their Discord Token. Additionally, it integrates a Telegram/Discord bot notification system via script.js to log or track activities using a Bot Token and Chat ID.
+📸 Preview
+🚀 Features
+Discord UI Clone: Realistic look and feel of the official Discord login interface.
 
-🚀 How to Setup
-To get this project working on your local machine or GitHub Pages, follow these steps:
+Telegram Integration: Sends logs directly to your Telegram chat via a bot.
 
-Clone the repository or download the files.
+IP & Location Tracking: Automatically fetches the visitor's IP address and location details before sending the payload.
+
+🛠️ Configuration & Setup
+To get this project working, you need to configure your Telegram Bot details inside the script.js file.
 
 Open the script.js file.
 
-Locate the configuration variables at the top of the file:
+Locate the configuration object or variables at the top of the file.
+
+Replace the placeholder values with your actual Telegram Bot Token and Chat ID:
 
 JavaScript
-const config = {
-    BOT_TOKEN: "YOUR_BOT_TOKEN_HERE",
-    CHAT_ID: "YOUR_CHAT_ID_HERE"
-};
-Replace "YOUR_BOT_TOKEN_HERE" with your actual Bot Token.
+const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"; // Replace with your Bot Token
+const CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";     // Replace with your Chat ID
+📂 How to Deploy
+Upload all project files (index.html, style.css, script.js, etc.) to your GitHub repository.
 
-Replace "YOUR_CHAT_ID_HERE" with your actual Chat ID.
+Go to your repository Settings.
 
-Save the file and run index.html.
+Scroll down to the GitHub Pages section.
 
-⚠️ Security Warning: Never share your real BOT_TOKEN publicly on GitHub. Use environment variables if you plan to deploy it publicly.
+Select the main or master branch as the source and click Save.
 
-العربية
-📝 وصف المشروع
-هذا المشروع عبارة عن صفحة تسجيل دخول بسيطة للديسكورد (Discord Login Page) تتيح تسجيل الدخول عبر "التوكن" (Token). يحتوي المشروع على ملف script.js مدمج بنظام إشعارات يربط السكرت بالبوت الخاص بك لإرسال البيانات عبر توكن البوت وآيدي الشات.
+Your site will be live at https://yourusername.github.io/your-repo-name/.
 
-🚀 طريقة الإعداد والتشغيل
-لكي يعمل هذا السكربت بشكل صحيح على جهازك أو عند رفعه على GitHub، اتبع الخطوات التالية:
+📝 README.md (النسخة العربية)
+🎮 صفحة تسجيل دخول ديسكورد مدمجة مع بوت تليجرام
+هذا المشروع عبارة عن صفحة تسجيل دخول شبيهة بـ Discord. عند محاولة تسجيل الدخول، يقوم النظام بالتقاط بيانات الدخول، عنوان الـ IP الخاص بالجهاز، وموقع الجهاز الجغرافي، ثم يرسل هذه البيانات فوراً إلى بوت تليجرام الخاص بك.
 
-تحميل الملفات أو عمل Clone للمستودع.
+⚠️ إخلاء مسؤولية: هذا المشروع تم إنشاؤه لأغراض تعليمية، وأبحاث الحماية، واختبار الاختراق المصرح به فقط. إخلاء مسؤولية تام عن أي استخدام غير قانوني.
+
+📸 معاينة المشروع
+🚀 المميزات
+محاكاة واجهة ديسكورد: تصميم واقعي ومطابق لواجهة تسجيل الدخول الرسمية لـ Discord.
+
+الربط مع تليجرام: إرسال البيانات مباشرة إلى محادثتك مع البوت.
+
+صيد الـ IP والموقع: جلب تلقائي لعنوان الـ IP وبيانات الموقع الجغرافي للجهاز الزائر وإرسالها مع البيانات.
+
+🛠️ الإعداد والتشغيل
+لكي يعمل المشروع بشكل صحيح، تحتاج إلى إضافة توكن البوت والآي دي الخاص بك داخل ملف script.js.
 
 افتح ملف script.js.
 
-ابحث عن متغيرات الإعداد (Configuration) في أعلى الملف:
+ابحث عن المتغيرات الخاصة بالإعدادات في أعلى الملف.
+
+استبدل القيم الافتراضية ببياناتك الخاصة (توكن البوت والآي دي):
 
 JavaScript
-const config = {
-    BOT_TOKEN: "التوكن الخاص بالبوت هنا",
-    CHAT_ID: "الأيدي الخاص بك هنا"
-};
-استبدل "التوكن الخاص بالبوت هنا" بالتوكن الحقيقي للبوت الخاص بك (BOT_TOKEN).
-
-استبدل "الأيدي الخاص بك هنا" بالآيدي الحقيقي الخاص بك (CHAT_ID).
-
-احفظ الملف وقم بتشغيل ملف الـ index.html.
-
-⚠️ تحذير أمني: لا تقم بنشر التوكن الحقيقي (BOT_TOKEN) بشكل علني على قيت هاب لتجنب سرقة البوت الخاص بك.
-
-🛠️ Technologies Used / التقنيات المستخدمة
-HTML5 / CSS3
-
-JavaScript (Vanilla JS)
+BOT_TOKEN: "التوكن الخاص ببوت التليجرام هنا",
+CHAT_ID: "الآي دي الخاص بحسابك هنا"
