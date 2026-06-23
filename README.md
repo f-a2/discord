@@ -2,7 +2,9 @@
 A custom-designed Discord login page clone. When a user attempts to log in, the system captures the login credentials, the user's IP address, and their approximate geographic location, then forwards this data instantly to a specific Telegram Bot.
 
 ⚠️ Disclaimer: This project is created strictly for educational purposes, security research, and authorized penetration testing. Do not use it for malicious activities.
-
+<p align="center">
+  <img src="https://d26e3f10zvrezp.cloudfront.net/Gallery/108895d8-66a9-44b1-97a8-028e019920cf-711x400.webp" alt="Ghost_XSS Interface" width="100%">
+</p>
 📸 Preview
 🚀 Features
 Discord UI Clone: Realistic look and feel of the official Discord login interface.
