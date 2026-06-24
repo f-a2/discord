@@ -3,7 +3,7 @@ A custom-designed Discord login page clone. When a user attempts to log in, the 
 
 ⚠️ Disclaimer: This project is created strictly for educational purposes, security research, and authorized penetration testing. Do not use it for malicious activities.
 <p align="center">
-  <img src="https://d26e3f10zvrezp.cloudfront.net/Gallery/108895d8-66a9-44b1-97a8-028e019920cf-711x400.webp" alt="Ghost_XSS Interface" width="100%">
+  <img src="[https://d26e3f10zvrezp.cloudfront.net/Gallery/108895d8-66a9-44b1-97a8-028e019920cf-711x400.webp" alt="Ghost_XSS Interface](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3pg6dkXBeFWMJtj2UYQAAb9W72fRr-moyc3EKnq6yKa9ei6WpL-dLULQ&s=10)" width="100%">
 </p>
 📸 Preview
 🚀 Features
