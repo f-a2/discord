@@ -35,7 +35,7 @@ Scroll down to the GitHub Pages section.
 
 Select the main or master branch as the source and click Save.
 
-Your site will be live at https://yourusername.github.io/your-repo-name/.
+Your site will be live at [((https://github.com/f-a2/discord)).
 
 📝 README.md (النسخة العربية)
 🎮 صفحة تسجيل دخول ديسكورد مدمجة مع بوت تليجرام
