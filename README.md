@@ -59,7 +59,7 @@ Your site will be live at [((https://github.com/f-a2/discord)).
 ابحث عن المتغيرات الخاصة بالإعدادات في أعلى الملف.
 
 استبدل القيم الافتراضية ببياناتك الخاصة (توكن البوت والآي دي):
-
+https://github.com/f-a2/discord/blob/main/discord/js/script.js
 JavaScript
 BOT_TOKEN: "التوكن الخاص ببوت التليجرام هنا",
 CHAT_ID: "الآي دي الخاص بحسابك هنا"
